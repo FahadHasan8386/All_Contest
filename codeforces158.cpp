@@ -19,14 +19,11 @@ int main (){
 
     for (int i = 0 ; i < n ; i++){
 
-        if ( v[i] >= v[k-1] ; v[i] > 0 ){
+        if ( v[i] >= v[k-1] && v[i] > 0 ){
 
             next++;
         }
 
     }
-    cout << next <<endl;
-
-    return 0;
+    cout << next << endl;
 }
-
