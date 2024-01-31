@@ -1,24 +1,26 @@
-#include<bits/stdc++.h>
+#include <iostream>
+#include <string>
+
 using namespace std;
-int main(){
 
-    int n , X = 0 ;
-    char s [2];
+int main() {
+    int n;
+    cin >> n;
 
-        cin >> n;
+    int x = 0;  // Initial value of x
 
-    for (int i = 0 ; i < n ;i++){
+    for (int i = 0; i < n; ++i) {
+        string statement;
+        cin >> statement;
 
-        cin >> s[i];
-
-        if (s[i] == '++'){
-            X++;
-        }
-        else if(s[i] == '--') {
-            X--;
+        if (statement == "++X" || statement == "X++") {
+            ++x;
+        } else if (statement == "--X" || statement == "X--") {
+            --x;
         }
     }
-        cout << X;
 
+    cout << x << endl;
 
+    return 0;
 }
