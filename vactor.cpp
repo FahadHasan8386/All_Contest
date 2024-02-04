@@ -16,7 +16,6 @@ int main (){
     cout << v.size() << endl;
 
     vector <int> p;
-    cin
 
 
 }
