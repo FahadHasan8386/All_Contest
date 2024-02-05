@@ -44,6 +44,28 @@ int main ()
         }
         cout << endl;
 
+        int Max = v[0];
+        int Min = INT_MAX;
+
+        for (int i = 0 ; i < v.size() ; i++)
+        {
+
+            if (v[i] > Max && v[i] != user_input)
+            {
+                Max = v[i];
+            }
+            if (v[i] < Min && v[i] != user_input)
+            {
+
+                Min = v[i];
+            }
+        }
+            cout << "Maximum Value : " << Max << endl;
+            cout << "Minimum Value : " << Min << endl;
+            cout << "Difference Between max to min : " << Max - Min << endl;
+
+
+
 
 
 }
