@@ -45,7 +45,7 @@ int main ()
         cout << endl;
 
         int Max = v[0];
-        int Min = INT_MAX;
+        int Min = v[0];
 
         for (int i = 0 ; i < v.size() ; i++)
         {
