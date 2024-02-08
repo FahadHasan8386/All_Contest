@@ -20,7 +20,7 @@ int main()
 
         for ( int j = 0 ; j < 3 ;j++)
         {
-            cout << sum[i][j] << "  " << endl;
+            cout << sum[i][j] << "  ";
         }
 
     }
