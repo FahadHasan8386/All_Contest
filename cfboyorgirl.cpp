@@ -4,7 +4,7 @@ using namespace std ;
 int main ()
 {
     string s;
-    int count;
+    int count = 0;
     cin >> s;
 
     sort (s.begin(),s.end());
