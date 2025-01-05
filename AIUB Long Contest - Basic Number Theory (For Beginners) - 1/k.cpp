@@ -1,7 +1,7 @@
+///In the name of Allah
 #include<bits/stdc++.h>
 using namespace std;
 
-#define optimize() ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 const int mx = 1e8;
 bitset<mx> isPrime;
 vector<int> primes;
@@ -32,7 +32,7 @@ void primeGen ( int n )
 int main()
 {
 
-    optimize();
+
     int lim = 1e8;
 
     primeGen(lim);
